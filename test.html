@@ -18,21 +18,22 @@
 <body>
     <div class="g">
         <div class="a">
-            <aside>
+            <aside class="mt-3 px-3">
                 <div>
                     <img src="/images/Group 2.png" alt="">
                 </div>
                 <div>
-                   <select name="" id="op" class="dashboard">
-                       <option value="">Dashboard</option>
-                   </select>
+                    <select name="" id="op" class="dashboard">
+                        <option value="">Dashboard</option>
+                    </select>
                 </div>
                 <div>
                     <button class="analytics">
                         Analytics
                     </button>
                 </div>
-                <span>Commerce</span>
+                <div>Commerce</div>
+                <br>
                 <div>
                     App
                 </div>
@@ -56,12 +57,14 @@
                 <div>
                     UI
                 </div>
-                <div class="d-flex">
-                    <img src="/images/layout.svg" alt="">
-                    <span class="px-2">Grid</span>
-                    <i class="fa fa-chevron-right px-5" aria-hidden="true"></i>
+                <div class="d-flex justify-content-between py-2">
+                    <div>
+                            <img src="/images/layout.svg" alt="">
+                            <span class="px-2">Grid</span>
+                    </div>
+                    <div><i class="fa fa-chevron-right px-5" aria-hidden="true"></i></div>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex py-2">
                     <img src="/images/droplet.svg" alt="">
                     <span class="px-2">Colors</span>
                 </div>
@@ -78,9 +81,9 @@
                     <img src="/images/archive.svg" alt="">
                     <span class="px-2">Component</span>
                     <i class="fa fa-chevron-right px-5" aria-hidden="true"></i>
-                </div>
+                </div> <br>
 
-                <div>form</div>
+                <div>Form</div>
                 <div>
                     <div class="d-flex">
                         <img src="/images/copy.svg" alt="">
@@ -102,7 +105,7 @@
                 </div>
                 <br>
                 <div>
-                    pages
+                    Pages
                 </div>
                 <div class="d-flex">
                     <img src="/images/lock.svg" alt="">
@@ -188,8 +191,320 @@
 
         <div class="s">
             <section>
-                hh
+                <div>
+                    <div class="d-flex justify-content-between navbar mt-3 px-3 align-items-center">
+                        <div class="">
+                            <span class="px-1"><img src="images/check-square.svg" alt=""></span>
+                            <span class="px-1"><img src="images/message-square.svg" alt=""></span>
+                            <span class="px-1"><img src="images/mail.svg" alt=""></span>
+                            <span class="px-1"><img src="images/calendar.svg" alt=""></span>
+                            <span class="px-1"><img src="images/star.svg" alt=""></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="px-3">English</span>
+                            <span class="px-1"> <img src="images/bell.svg" alt=""> </span>
+                            <span class="px-1"><img src="images/search.svg" alt=""></span>
+                            <div class="px-3">John Doe <br> <span class="available">Available</span> </div>
+                            <span class="px-1"><img src="images/Oval.png" alt=""></span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mt-3 px-3">
+                        <div class="">
+                            <span>Card actions <span class="slash">&#124;</span> </span>
+                            <span><img src="images/home.svg" alt=""></span> &#187;
+                            <span class="ecomm">eCommerce</span> &#187;
+                            <span>Electronics</span>
+                        </div>
+
+                        <div>
+                            <img src="images/Group.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="s1">
+                    <span class="mb-2">
+                        Filter
+                    </span>
+                        <div class="ht">
+                            <div class="px-3 filter">
+                                <div class="pt-3">Multi Range</div>
+                                <div>
+                                    <div class="mt-3">
+                                        <input type="radio">
+                                        <label for="radio">$10</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio">
+                                        <label for="radio">$10 - $100</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio">
+                                        <label for="radio">$100 -$500 </label>
+                                    </div>
+                                    <div>
+                                        <input type="radio">
+                                        <label for="radio">$500</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="radio">
+                                        <label for="radio">All</label>
+                                    </div>
+                                </div>
+
+                                <hr>
+                                <div>
+                                    <div class="d-flex justify-content-between my-3">
+                                        <span>Slider</span>
+                                        <span>1.099 - 4098</span>
+                                    </div>
+                                    <div class="slidecontainer">
+                                        <input type="range" value="1" step="1" min="1.099" max="4098" class="slider">
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <div>
+                                    <span>Category</span>
+                                    <form class="mt-3">
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label> Phone </label>
+                                            </div>
+                                            <div> <span>1920</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>Computers & Tablets </label>
+                                            </div>
+                                            <div> <span>1820</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>Cell Phones Accessories</label>
+                                            </div>
+                                            <div> <span>462</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>Appliances </label>
+                                            </div>
+                                            <div> <span>6556</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>Audio </label>
+                                            </div>
+                                            <div> <span>120</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>iphone Accessories </label>
+                                            </div>
+                                            <div> <span>353</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>Cameras & Camcorder</label>
+                                            </div>
+                                            <div> <span>45</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>iphone Cases & Clips </label>
+                                            </div>
+                                            <div> <span>456</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>Tv & Home</label>
+                                            </div>
+                                            <div> <span>55</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="amount" value="number">
+                                                <label>Small Kitchen Appliance</label>
+                                            </div>
+                                            <div> <span>10</span></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <hr>
+                                <div>
+                                    <span>Brand</span>
+                                    <form class="mt-3">
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Insigni</label>
+                                            </div>
+                                            <div> <span>220</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Samsung</label>
+                                            </div>
+                                            <div> <span>120</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Apple</label>
+                                            </div>
+                                            <div> <span>320</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>HP</label>
+                                            </div>
+                                            <div> <span>32</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Sony</label>
+                                            </div>
+                                            <div> <span>55</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Metra</label>
+                                            </div>
+                                            <div> <span>55</span></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Dyne</label>
+                                            </div>
+                                            <div> <span>120</span></div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>LG</label>
+                                            </div>
+                                            <div> <span>98</span></div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Canon</label>
+                                            </div>
+                                            <div> <span>99</span></div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" name="phone" value="text">
+                                                <label>Speck</label>
+                                            </div>
+                                            <div> <span>575</span></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <hr>
+                                <div>
+                                <div>
+                                    <span>Rating</span>
+                                    <div class="d-flex justify-content-between mt-3">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                        </div>
+
+                                        <div>
+                                            8500
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span>&nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            3250
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span> &nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            1120
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span> &nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            3320
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span> &nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            5452
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="yt">
+                    <div>
+
+                    </div>
+                </div>
+                
             </section>
+            <button class="btn_block text-white mt-3">CLEAR ALL FILTERS</button>
         </div>
     </div>
 
