@@ -2,21 +2,21 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.g {
+.main__area {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 20px;
     background-color: #f9f9f9;
 }
 
-.a {
+.side__nav {
     grid-column: 1/2;
     background-color: #ffff;
     color: #2c2c2c;
     font-size: 12px;
 }
 
-.s {
+.main__content {
     grid-column: 2/13;
     background-color: #f9f9f9;
 }
@@ -58,7 +58,7 @@
     color: #7E72F2;
 }
 
-.s1 {
+.mini__section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 20px;
@@ -69,20 +69,30 @@
     color: #2c2c2c;
 }
 
+.regulars {
+    font-weight: 500;
+}
+
 .john__doe {
     font-size: 14px;
 }
 
-.ht {
+.side__bar {
     grid-column: 1/4;
     background-color: #ffff;
 }
 
-.yt {
+.gallery {
     grid-column: 4/13;
-    background-color: #FFFFFF;
-    width: 500px;
-    height: 40px;
+}
+
+.sb__header{
+    font-weight: bold;
+}
+
+.btn__text {
+    font-size: 12px;
+    padding-left: 3em;
 }
 
 #radio {
@@ -154,9 +164,15 @@
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
 }
 
-.ty {
-    padding-right: 9em;
+.num {
+    padding-right: 15em;
     font-size: 12px;
+    font-weight: 500;
+}
+
+.default {
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .input::placeholder {
@@ -170,7 +186,7 @@
 }
 
 .search input { 
-    width: 155%;
+    width: 98%;
     padding: 6px;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
     border-radius: 8px;
@@ -179,7 +195,7 @@
 .search .fa-search { 
     position: absolute;
     top: 12px;
-    left: 151%;
+    left: 95%;
 }
 
 .products {
@@ -205,6 +221,7 @@
 .desc {
     font-size: 8px;
     color: #2c2c2c;
+    margin: 
 }
 
 .image__items {
@@ -249,4 +266,13 @@
     height: 50px;
     width: 50px;
     padding: 10px;
+}
+
+.footer {
+    margin-left: 28em;
+    font-size: 12px;
+}
+
+.footer__logo {
+    padding-left: 12em;
 }
