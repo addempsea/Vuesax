@@ -6,11 +6,12 @@
 
 .f2 {
     display: flex;
+    width: 235px;
 }
 
 .w {
-    width: 371px;
-    height: 486;
+    width: 235px;
+    height: 250px;
     transform: translateX(50%);
 }
 
@@ -21,4 +22,33 @@
 
 .p {
     transform: translateX(-2%);
+}  */
+
+/* .products {
+    max-width: 235px;
+}
+
+.btn__items {
+    max-width: 118px;
+}
+
+.cart__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    font-size: 11px;
+}
+
+.image__wrapper {
+   
 } */
+
+
+
