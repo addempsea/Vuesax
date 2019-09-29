@@ -254,7 +254,7 @@
 .number_range {
     background: #EDEDED;
     border-radius: 20px;
-    padding: 5px;
+    padding: 8px;
 }
 
 #bg-blue {
@@ -266,12 +266,11 @@
 }
 
 .footer {
-    margin-left: 28em;
-    font-size: 12px;
+    margin-left: 17em;
 }
 
 .footer__logo {
-    padding-left: 12em;
+    padding-left: 4em;
 }
 
 .price {
