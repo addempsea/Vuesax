@@ -1,21 +1,854 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Title</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="whole__screen">
-        <div class="left__side">
 
+<body>
+    <div class="main__area">
+        <div class="side__nav">
+            <aside class="mt-3 px-3">
+                <div>
+                    <img src="images/Group 2.png" alt="">
+                </div>
+                <div>
+                    <select name="" id="op" class="dashboard">
+                        <option value="">Dashboard</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="analytics">
+                        Analytics
+                    </button>
+                </div>
+                <div class="mt-3">eCommerce</div>
+
+
+                <div>
+                    <div class="my-3">
+                        <div class="">
+                            <span class="nav__items">APP</span>
+                        </div>
+                        <div class="d-flex my-3">
+                            <img src="images/mail.svg" alt="">
+                            <span class="px-2">Email</span>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="images/message-square.svg" alt="">
+                            <span class="px-2">Chat</span>
+                        </div>
+                        <div class="d-flex my-3">
+                            <img src="images/check-square.svg" alt="">
+                            <span class="px-2">Todo</span>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <img src="images/calendar.svg" alt="">
+                            <span class="px-2">Calender</span>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div class="my-3">
+                            <span class="nav__items">UI</span>
+                        </div>
+                        <div class="d-flex justify-content-between ">
+                            <div>
+                                <img src="images/layout.svg" alt="">
+                                <span class="px-2">Grid</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/droplet.svg" alt="">
+                            <span class="px-2">Colors</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <img src="images/credit-card.svg" alt="">
+                                <span class="px-2">Card</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/grid.svg" alt="">
+                            <span class="px-2">Table</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <img src="images/archive.svg" alt="">
+                                <span class="px-2">Component</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="my-3">
+                        <div>
+                            <span class="nav__items">FORM</span>
+                        </div>
+                        <div class="d-flex justify-content-between my-3">
+                            <div>
+                                <img src="images/copy.svg" alt="">
+                                <span class="px-2">Form element</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <img src="images/sidebar.svg" alt="">
+                            <span class="px-2">Form layout</span>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/file-text.svg" alt="">
+                            <span class="px-2">Form Wizard</span>
+                        </div>
+                        <div class="">
+                            <img src="images/check-circle.svg" alt="">
+                            <span class="px-2">Form validation</span>
+                        </div>
+                    </div>
+
+                    <div class="my-3">
+                        <div>
+                            <span class="nav__items">PAGES</span>
+                        </div>
+                        <div class="d-flex justify-content-between my-3">
+                            <div>
+                                <img src="images/lock.svg" alt="">
+                                <span class="px-2">Authentication</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <img src="images/clock.svg" alt="">
+                            <span class="px-2">Coming soon</span>
+                        </div>
+                        <div class="d-flex justify-content-between my-3">
+                            <div>
+                                <img src="images/alert-triangle.svg" alt="">
+                                <span class="px-2">Error</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <img src="images/anchor.svg" alt="">
+                            <span class="px-2">Maintenance</span>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/user.svg" alt="">
+                            <span class="px-2">Profile</span>
+                        </div>
+                        <div>
+                            <img src="images/help-circle.svg" alt="">
+                            <span class="px-2">FAQ</span>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/info.svg" alt="">
+                            <span class="px-2">Knowlegde</span>
+                        </div>
+                        <div>
+                            <img src="images/search.svg" alt="">
+                            <span class="px-2">Search</span>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/file.svg" alt="">
+                            <span class="px-2">File</span>
+                        </div>
+                    </div>
+
+                    <div class="my-3">
+                        <div>
+                            <span class="nav__items">CHARTS & MAPS</span>
+                        </div>
+                        <div class="d-flex justify-content-between my-3">
+                            <div>
+                                <img src="images/pie-chart.svg" alt="">
+                                <span class="px-2">Charts</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <img src="images/map.svg" alt="">
+                            <span class="px-2">Google maps</span>
+                        </div>
+                    </div>
+                    
+                    <div class="my-3">
+                        <div>
+                            <span class="nav__items">EXTENTION</span>
+                        </div>
+                        <div class="d-flex justify-content-between my-3">
+                            <div>
+                                <img src="images/pocket.svg" alt="">
+                                <span class="px-2">Select</span>
+                            </div>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <img src="images/edit.svg" alt="">
+                            <span class="px-2">Quill Editor</span>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/droplet.svg" alt="">
+                            <span class="px-2">Drag & Drop</span>
+                        </div>
+                        <div>
+                            <img src="images/calendar.svg" alt="">
+                            <span class="px-2">Datepicker</span>
+                        </div>
+                    </div>
+
+                    <div class="my-3">
+                        <div>
+                            <span class="nav__items">OTHERS</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between my-3">
+                                <div>
+                                    <img src="images/menu.svg" alt="menu">
+                                    <span class="px-2">Menu</span>
+                                </div>
+                                <i class="fa fa-chevron-right mr-3" aria-hidden="true"></i>
+                        </div>
+                        <div class="my-3">
+                            <img src="images/eye-off.svg" alt="">
+                            <span class="px-2 nav__items">Disabled menu</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         </div>
 
-        <div class="main__section">
+        <div class="main__content">
+            <section>
+                <div class="pr-3">
+                    <div class="d-flex justify-content-between navbar mt-3 px-3 align-items-center">
+                        <div class="">
+                            <span class="px-1"><img src="images/check-square.svg" alt=""></span>
+                            <span class="px-1"><img src="images/message-square.svg" alt=""></span>
+                            <span class="px-1"><img src="images/mail.svg" alt=""></span>
+                            <span class="px-1"><img src="images/calendar.svg" alt=""></span>
+                            <span class="px-1"><img src="images/star.svg" alt=""></span>
+                        </div>
 
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="px-3">English</span>
+                            <span class="px-1"> <img src="images/bell.svg" alt=""> </span>
+                            <span class="px-1"><img src="images/search.svg" alt=""></span>
+                            <div class="px-3" class="john__doe">John Doe <br> <span class="available">Available</span>
+                            </div>
+                            <span class="px-1"><img src="images/Oval.png" alt=""></span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div class="">
+                            <span>Card actions <span class="slash">&#124;</span> </span>
+                            <span><img src="images/home.svg" alt=""></span> &#187;
+                            <span class="ecomm">eCommerce</span> &#187;
+                            <span>Electronics</span>
+                        </div>
+
+                        <div>
+                            <img src="images/Group.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex justify-content-between align-items-center mt-3 pr-3 mb-3">
+                        <div class="regulars">
+                            Filter
+                        </div>
+                        <div class="num">
+                            7,618 results found in 5ms
+                        </div>
+                        <div class="d-flex">
+                            <div class="bg-white px-3 py-1 round_value">
+                                <span class="mr-4 default">Default</span>
+                                <img src="images/Path.svg" alt="">
+                            </div>
+
+                            <div class="bg-white mx-2 py-1 px-2 round_value">
+                                <img src="images/grid.svg" alt="">
+                            </div>
+
+                            <div class="bg-white py-1 px-2 round_value">
+                                <img src="images/menu.svg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mini__section">
+                    <div class="side__bar">
+                        <div class="px-3 filter">
+                            <div class="pt-3 sb__header">Multi Range</div>
+                            <div>
+                                <div class="mt-3">
+                                    <input type="radio">
+                                    <label for="radio">$10</label>
+                                </div>
+                                <div>
+                                    <input type="radio">
+                                    <label for="radio">$10 - $100</label>
+                                </div>
+                                <div>
+                                    <input type="radio">
+                                    <label for="radio">$100 -$500 </label>
+                                </div>
+                                <div>
+                                    <input type="radio">
+                                    <label for="radio">$500</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio">
+                                    <label for="radio">All</label>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div>
+                                <div class="d-flex justify-content-between my-3">
+                                    <span class="sb__header">Slider</span>
+                                    <span>1.099 - 4098</span>
+                                </div>
+                                <div class="slidecontainer">
+                                    <input type="range" value="1" step="1" min="1.099" max="4098" class="slider">
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div>
+                                <span class="sb__header">Category</span>
+                                <form class="mt-3">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label> Phone </label>
+                                        </div>
+                                        <div> <span>1920</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>Computers & Tablets </label>
+                                        </div>
+                                        <div> <span>1820</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>Cell Phones Accessories</label>
+                                        </div>
+                                        <div> <span>462</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>Appliances </label>
+                                        </div>
+                                        <div> <span>6556</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>Audio </label>
+                                        </div>
+                                        <div> <span>120</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>iphone Accessories </label>
+                                        </div>
+                                        <div> <span>353</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>Cameras & Camcorder</label>
+                                        </div>
+                                        <div> <span>45</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>iphone Cases & Clips </label>
+                                        </div>
+                                        <div> <span>456</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>Tv & Home</label>
+                                        </div>
+                                        <div> <span>55</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="amount" value="number">
+                                            <label>Small Kitchen Appliance</label>
+                                        </div>
+                                        <div> <span>10</span></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <hr>
+                            <div>
+                                <span class="sb__header">Brand</span>
+                                <form class="mt-3">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Insigni</label>
+                                        </div>
+                                        <div> <span>220</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Samsung</label>
+                                        </div>
+                                        <div> <span>120</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Apple</label>
+                                        </div>
+                                        <div> <span>320</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>HP</label>
+                                        </div>
+                                        <div> <span>32</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Sony</label>
+                                        </div>
+                                        <div> <span>55</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Metra</label>
+                                        </div>
+                                        <div> <span>55</span></div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Dyne</label>
+                                        </div>
+                                        <div> <span>120</span></div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>LG</label>
+                                        </div>
+                                        <div> <span>98</span></div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Canon</label>
+                                        </div>
+                                        <div> <span>99</span></div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <input type="checkbox" name="phone" value="text">
+                                            <label>Speck</label>
+                                        </div>
+                                        <div> <span>575</span></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <hr>
+                            <div>
+                                <div>
+                                    <span class="sb__header">Rating</span>
+                                    <div class="d-flex justify-content-between mt-3">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                        </div>
+
+                                        <div>
+                                            8500
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span>&nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            3250
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span> &nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            1120
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span> &nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            3320
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <div>
+                                            <img src="images/star gold.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <img src="images/star black.svg" alt="">
+                                            <span> &nbsp; & Up</span>
+                                        </div>
+
+                                        <div>
+                                            5452
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery">
+                        <div>
+                            <div>
+                                <div class="search">
+                                    <span> <i class="fa fa-search"></i></span>
+                                    <input type="text" placeholder="Search here">
+                                </div>
+                            </div>
+                            <div class="merch">
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/jbl-speaker.jpg" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating (2).svg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $199
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">JBL Speaker</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/jlab-audio-wireless.jpg" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating (1).svg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $2499
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">JBuds Air Wireless Bluetooth…</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/apple-watch.png" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating.png" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $399
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">Apple Watch Series 4 GPS</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/beats-headphones.jpg" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating (2).svg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $459
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">Beats Headphones</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/ipad-pro.jpg" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating (2).svg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $899
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">Apple iPad Pro 64GB</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/iphone-x.jpg" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating.png" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $899
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">Apple iPhone X 128GB</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/homepod.jpg" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating.svg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $399
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">Apple Homepod</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/macbook-pro.jpg" alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating.png" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $2500
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">Apple Macbook Pro 512GB SSD</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="image__wrapper">
+                                        <img src="images/magic-mouse.jpg   " alt="" class="image__items">
+                                    </div>
+                                    <div class="ratings">
+                                        <div>
+                                            <img src="images/Rating (3).svg" alt="">
+                                        </div>
+                                        <div class="price">
+                                            $99
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="merch__name">Apple Magic Mouse</span> <br>
+                                        <span class="desc">Redesigned from scratch and completely revised.</span>
+                                    </div>
+                                    <div class="cart__buttons">
+                                        <div>
+                                            <img src="images/Wishlist Button.png" alt="" class="btn__items">
+                                        </div>
+                                        <div class="">
+                                            <img src="images/Add To Cart Button.png" alt="" class="btn__items">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+            <button class="btn_block text-white mt-3">CLEAR ALL FILTERS</button>
+
+            <div class="d-flex footer align-items-center">
+
+                <div class="d-flex justify-content-center">
+                    <div class="bg_ash mr-3">
+                        <span><i class="fa fa-chevron-left"></i></span>
+                    </div>
+                    <div class="number_range">
+                        <span>&nbsp;1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3 &nbsp;&nbsp; 4 &nbsp;&nbsp; 5 &nbsp;
+                            <span id="bg-blue">6</span>&nbsp; 7 &nbsp;&nbsp; 8 &nbsp;&nbsp; 9 &nbsp;&nbsp;10
+                            &nbsp;</span>
+                    </div>
+
+                    <div class="bg_ash ml-3">
+                        <span><i class="fa fa-chevron-right"></i></span>
+                    </div>
+                </div>
+                <div class="footer__logo">
+                    <span>Powered by <img src="images/algolia-logo.svg.svg" alt=""></span>
+                </div>
+            </div>
         </div>
     </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
